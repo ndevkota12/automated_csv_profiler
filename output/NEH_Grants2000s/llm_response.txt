@@ -1,9 +1,41 @@
-Based on the provided data, the strongest positive pair is `ApprovedOutright` and `AwardOutright`, with an approved outright value of 0.9988. 
+Here is the extracted information:
 
-The strongest negative pair is `CongressionalDistrict` and `ParticipantCount`, with a participant count of 1.0. 
+1. **Total Amount:**
+   - **Original Amount:** 1.0
+   - **Supplement Amount:** 0.9151003100695548
+   - **Supplement Count:** 0.8026034370679531
+   - **Participant Count:** 0.578549189772242
 
-The overall strongest values are:
-- ApprovedOutright: 0.9988
-- AwardOutright: 0.9988
+2. **Award Amount:**
+   - **Approved Outright:** 0.41171166452691865
+   - **Award Matching:** 1.0
 
-The overall strongest value is 0.9988.
+3. **Supplement Amount:**
+   - **Approved Outright:** 0.9151003100695548
+   - **Supplement Count:** 0.8648981553889843
+   - **Supplement Amount:** 1.0
+   - **Supplement Count:** 0.669675525670967
+
+4. **Supplement Values:**
+   - **Supplement Amount:** 0.5996283817439071
+   - **Supplement Count:** 0.669675525670967
+   - **Supplement Count:** 1.0
+   - **Supplement Count:** -0.027236143416549456
+
+5. **Positive and Negative Values:**
+   - **Positive Values:**
+     - **CongressionalDistrict:** 0.02550877038547125
+     - **ParticipantCount:** 0.06881638091645147
+   - **Negative Values:**
+     - **ApprovedOutright:** 0.030972012615112388
+     - **AwardOutright:** 0.09618019257632353
+     - **SupplementAmount:** 0.022653569086179787
+     - **SupplementCount:** 0.023299147737213578
+
+6. **Positive and Negative Pairs:**
+   - **Positive Pairs:**
+     - **ApprovedOutright and AwardOutright**
+   - **Negative Pairs:**
+     - **CongressionalDistrict and ParticipantCount**
+
+This information provides a summary of the key financial and administrative data for a specific dataset.

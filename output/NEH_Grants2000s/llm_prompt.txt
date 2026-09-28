@@ -1,7 +1,7 @@
-You are an expert data analyst. I have profiled a dataset and generated the following verified statistics in JSON format. 
-Using ONLY these facts, write 5 to 8 evidence-based insights.
+You are an expert data analyst at Google. 
+I have profiled a dataset and generated a file in JSON format that includes dataset overview, data quality profile, stats and relationships between variables. 
 
-You must include:
+Using ONLY these facts, write 5 to 8 evidence-based insights. You must include:
 1. At least one data-quality finding.
 2. At least one distribution finding.
 3. At least one categorical finding (if categorical columns exist).
