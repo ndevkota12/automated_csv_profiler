@@ -1,0 +1,34 @@
+Column Name,Technical Type,Probable Role,Non-Missing Count,Missing Percent,Unique Values
+AppNumber,str,Identifier-like,9402,0.0,9402
+ApplicantType,int64,Boolean,9402,0.0,2
+Institution,str,Free-text field,9402,0.0,2964
+OrganizationType,str,Categorical,9402,0.0,40
+InstCity,str,Free-text field,9402,0.0,1379
+InstState,str,Categorical,9402,0.0,57
+InstPostalCode,str,Free-text field,9402,0.0,3022
+InstCountry,str,Categorical,9402,0.0,17
+CongressionalDistrict,int64,Numeric,9402,0.0,52
+Latitude,str,Free-text field,9402,0.0,2504
+Longitude,str,Free-text field,9402,0.0,2504
+CouncilDate,str,Categorical,9402,0.0,50
+YearAwarded,int64,Numeric,9402,0.0,13
+ProjectTitle,str,Free-text field,9402,0.0,7757
+Program,str,Categorical,9402,0.0,113
+Division,str,Categorical,9402,0.0,9
+ApprovedOutright,float64,Numeric,9402,0.0,2859
+ApprovedMatching,float64,Numeric,9402,0.0,281
+AwardOutright,float64,Numeric,9402,0.0,3003
+AwardMatching,float64,Numeric,9402,0.0,348
+OriginalAmount,float64,Numeric,9402,0.0,2834
+SupplementAmount,float64,Numeric,9402,0.0,217
+BeginGrant,str,Categorical,9402,0.0,141
+EndGrant,str,Categorical,9402,0.0,217
+ProjectDesc,str,Free-text field,9402,0.0,4283
+ToSupport,str,Free-text field,9402,0.0,5235
+PrimaryDiscipline,str,Categorical,9402,0.0,107
+SupplementCount,int64,Numeric,9402,0.0,24
+Supplements,str,Identifier-like,302,0.9679,279
+ParticipantCount,int64,Numeric,9402,0.0,11
+Participants,str,Free-text field,9139,0.028,7319
+DisciplineCount,int64,Numeric,9402,0.0,3
+Disciplines,str,Categorical,9402,0.0,307

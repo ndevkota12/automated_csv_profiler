@@ -1,0 +1,343 @@
+{
+    "Dataset Overview": {
+        "filename": "Provisional COVID-19 data.csv",
+        "rows": 45565,
+        "columns": 14,
+        "column_name": "footnote",
+        "technical_type": {
+            "data_as_of": "str",
+            "Jurisdiction_Residence": "str",
+            "Group": "str",
+            "data_period_start": "str",
+            "data_period_end": "str",
+            "COVID_deaths": "str",
+            "COVID_pct_of_total": "float64",
+            "pct_change_wk": "float64",
+            "pct_diff_wk": "float64",
+            "crude_COVID_rate": "float64",
+            "aa_COVID_rate": "float64",
+            "crude_COVID_rate_ann": "str",
+            "aa_COVID_rate_ann": "str",
+            "footnote": "str"
+        },
+        "non_missing_count": {
+            "data_as_of": 45565,
+            "Jurisdiction_Residence": 45565,
+            "Group": 45565,
+            "data_period_start": 45565,
+            "data_period_end": 45565,
+            "COVID_deaths": 38958,
+            "COVID_pct_of_total": 38958,
+            "pct_change_wk": 13691,
+            "pct_diff_wk": 14908,
+            "crude_COVID_rate": 36006,
+            "aa_COVID_rate": 36006,
+            "crude_COVID_rate_ann": 36006,
+            "aa_COVID_rate_ann": 36006,
+            "footnote": 9559
+        },
+        "missing_percent": {
+            "data_as_of": 0.0,
+            "Jurisdiction_Residence": 0.0,
+            "Group": 0.0,
+            "data_period_start": 0.0,
+            "data_period_end": 0.0,
+            "COVID_deaths": 0.145,
+            "COVID_pct_of_total": 0.145,
+            "pct_change_wk": 0.6995,
+            "pct_diff_wk": 0.6728,
+            "crude_COVID_rate": 0.2098,
+            "aa_COVID_rate": 0.2098,
+            "crude_COVID_rate_ann": 0.2098,
+            "aa_COVID_rate_ann": 0.2098,
+            "footnote": 0.7902
+        },
+        "unique_values": {
+            "data_as_of": 1,
+            "Jurisdiction_Residence": 65,
+            "Group": 3,
+            "data_period_start": 351,
+            "data_period_end": 350,
+            "COVID_deaths": 17568,
+            "COVID_pct_of_total": 444,
+            "pct_change_wk": 1278,
+            "pct_diff_wk": 229,
+            "crude_COVID_rate": 5021,
+            "aa_COVID_rate": 4264,
+            "crude_COVID_rate_ann": 2965,
+            "aa_COVID_rate_ann": 2739,
+            "footnote": 2
+        },
+        "probable_role": {
+            "data_as_of": "Date-like",
+            "Jurisdiction_Residence": "Categorical",
+            "Group": "Categorical",
+            "data_period_start": "Date-like",
+            "data_period_end": "Date-like",
+            "COVID_deaths": "Free-text field",
+            "COVID_pct_of_total": "Numeric",
+            "pct_change_wk": "Numeric",
+            "pct_diff_wk": "Numeric",
+            "crude_COVID_rate": "Numeric",
+            "aa_COVID_rate": "Numeric",
+            "crude_COVID_rate_ann": "Free-text field",
+            "aa_COVID_rate_ann": "Free-text field",
+            "footnote": "Boolean"
+        }
+    },
+    "Data Quality": {
+        "Number of duplicate rows in each columns": {
+            "data_as_of": 0,
+            "Jurisdiction_Residence": 0,
+            "Group": 0,
+            "data_period_start": 0,
+            "data_period_end": 0,
+            "COVID_deaths": 0,
+            "COVID_pct_of_total": 0,
+            "pct_change_wk": 0,
+            "pct_diff_wk": 0,
+            "crude_COVID_rate": 0,
+            "aa_COVID_rate": 0,
+            "crude_COVID_rate_ann": 0,
+            "aa_COVID_rate_ann": 0,
+            "footnote": 0
+        },
+        "Columns containing only one distinct value": [
+            "data_as_of"
+        ],
+        "Columns with a high percentage of missing values": [
+            "pct_change_wk",
+            "pct_diff_wk",
+            "footnote"
+        ],
+        "Columns that have mixed or inconsistent data type": [],
+        "Columns that have identifier-like or extremely high-cardinality data type": [],
+        "Columns that might contain sensitive data based on column name": []
+    },
+    "Descriptive Statistics": {
+        "Categorical Columns descriptive statistics (if blank then no categorical columns found)": {
+            "Number of unique categories in the column": {
+                "Jurisdiction_Residence": 65,
+                "Group": 3
+            },
+            "Most frequent category or categories": {
+                "Jurisdiction_Residence": {
+                    "Region 1": 701,
+                    "Region 2": 701,
+                    "Region 3": 701
+                },
+                "Group": {
+                    "total": 22750,
+                    "weekly": 22750,
+                    "3 month period": 65
+                }
+            },
+            "Frequency count of top 10 categories": {
+                "Jurisdiction_Residence": {
+                    "Region 1": 701,
+                    "Region 2": 701,
+                    "Region 3": 701,
+                    "Region 4": 701,
+                    "Region 5": 701,
+                    "Region 6": 701,
+                    "Region 7": 701,
+                    "Region 8": 701,
+                    "Region 9": 701,
+                    "Region 10": 701
+                },
+                "Group": {
+                    "total": 22750,
+                    "weekly": 22750,
+                    "3 month period": 65
+                }
+            },
+            "Frequency count percentage of top 10 categories": {
+                "Jurisdiction_Residence": {
+                    "Region 1": 1.5,
+                    "Region 2": 1.5,
+                    "Region 3": 1.5,
+                    "Region 4": 1.5,
+                    "Region 5": 1.5,
+                    "Region 6": 1.5,
+                    "Region 7": 1.5,
+                    "Region 8": 1.5,
+                    "Region 9": 1.5,
+                    "Region 10": 1.5
+                },
+                "Group": {
+                    "total": 49.9,
+                    "weekly": 49.9,
+                    "3 month period": 0.1
+                }
+            },
+            "Top categories when the column contains many unique values": {
+                "Jurisdiction_Residence": {
+                    "Region 1": 701,
+                    "Region 2": 701,
+                    "Region 3": 701
+                }
+            }
+        },
+        "Numerical Columns descriptive statistics (if blank then no numeric columns found)": {
+            "Valid count of the column": {
+                "COVID_pct_of_total": 38958,
+                "pct_change_wk": 13691,
+                "pct_diff_wk": 14908,
+                "crude_COVID_rate": 36006,
+                "aa_COVID_rate": 36006
+            },
+            "Missing count and percentage of the column": {
+                "COVID_pct_of_total": [
+                    100.0,
+                    45565
+                ],
+                "pct_change_wk": [
+                    100.0,
+                    45565
+                ],
+                "pct_diff_wk": [
+                    100.0,
+                    45565
+                ],
+                "crude_COVID_rate": [
+                    100.0,
+                    45565
+                ],
+                "aa_COVID_rate": [
+                    100.0,
+                    45565
+                ]
+            },
+            "Minimum value in the column": {
+                "COVID_pct_of_total": 0.0,
+                "pct_change_wk": -100.0,
+                "pct_diff_wk": -13.1,
+                "crude_COVID_rate": 0.0,
+                "aa_COVID_rate": 0.0
+            },
+            "Maximum value in the column": {
+                "COVID_pct_of_total": 67.0,
+                "pct_change_wk": 900.0,
+                "pct_diff_wk": 26.5,
+                "crude_COVID_rate": 553.9,
+                "aa_COVID_rate": 472.2
+            },
+            "Mean of the column": {
+                "COVID_pct_of_total": 7.467506032137173,
+                "pct_change_wk": 3.472229932072164,
+                "pct_diff_wk": -0.0061644754494231315,
+                "crude_COVID_rate": 172.90334110981505,
+                "aa_COVID_rate": 142.19286230072763
+            },
+            "Median of the column": {
+                "COVID_pct_of_total": 6.7,
+                "pct_change_wk": 0.0,
+                "pct_diff_wk": 0.0,
+                "crude_COVID_rate": 156.3,
+                "aa_COVID_rate": 122.8
+            },
+            "Mode of the column": {
+                "COVID_pct_of_total": 0.0,
+                "pct_change_wk": 0.0,
+                "pct_diff_wk": 0.0,
+                "crude_COVID_rate": 0.0,
+                "aa_COVID_rate": 0.0
+            },
+            "Standard deviation of the column": {
+                "COVID_pct_of_total": 6.0041653189985436,
+                "pct_change_wk": 33.35736261676787,
+                "pct_diff_wk": 1.910134103986084,
+                "crude_COVID_rate": 170.80200030798483,
+                "aa_COVID_rate": 140.36632769450273
+            },
+            "First quartile of the column": {
+                "COVID_pct_of_total": 3.2,
+                "pct_change_wk": -14.5,
+                "pct_diff_wk": -0.5,
+                "crude_COVID_rate": 1.0,
+                "aa_COVID_rate": 0.8
+            },
+            "Third quartile of the column": {
+                "COVID_pct_of_total": 10.3,
+                "pct_change_wk": 15.3,
+                "pct_diff_wk": 0.4,
+                "crude_COVID_rate": 337.3,
+                "aa_COVID_rate": 274.2
+            },
+            "Interquartile of the column": {
+                "COVID_pct_of_total": 7.1000000000000005,
+                "pct_change_wk": 29.8,
+                "pct_diff_wk": 0.9,
+                "crude_COVID_rate": 336.3,
+                "aa_COVID_rate": 273.4
+            },
+            "Outlier count and percentage of the column": {
+                "COVID_pct_of_total": [
+                    1368,
+                    3.0
+                ],
+                "pct_change_wk": [
+                    464,
+                    1.0
+                ],
+                "pct_diff_wk": [
+                    2712,
+                    6.0
+                ],
+                "crude_COVID_rate": [
+                    0
+                ],
+                "aa_COVID_rate": [
+                    0
+                ]
+            }
+        }
+    },
+    "Relationships": {
+        "correlation_matrix": {
+            "COVID_pct_of_total": {
+                "COVID_pct_of_total": 1.0,
+                "pct_change_wk": 0.0524686100108435,
+                "pct_diff_wk": 0.1197650473756525,
+                "crude_COVID_rate": 0.1898619761370862,
+                "aa_COVID_rate": 0.19087852719354528
+            },
+            "pct_change_wk": {
+                "COVID_pct_of_total": 0.0524686100108435,
+                "pct_change_wk": 1.0,
+                "pct_diff_wk": 0.5998114804333464,
+                "crude_COVID_rate": 0.02330448284808016,
+                "aa_COVID_rate": 0.023693414092358034
+            },
+            "pct_diff_wk": {
+                "COVID_pct_of_total": 0.1197650473756525,
+                "pct_change_wk": 0.5998114804333464,
+                "pct_diff_wk": 1.0,
+                "crude_COVID_rate": 0.1554574132027624,
+                "aa_COVID_rate": 0.15874747358156185
+            },
+            "crude_COVID_rate": {
+                "COVID_pct_of_total": 0.1898619761370862,
+                "pct_change_wk": 0.02330448284808016,
+                "pct_diff_wk": 0.1554574132027624,
+                "crude_COVID_rate": 1.0,
+                "aa_COVID_rate": 0.9918758844633763
+            },
+            "aa_COVID_rate": {
+                "COVID_pct_of_total": 0.19087852719354528,
+                "pct_change_wk": 0.023693414092358034,
+                "pct_diff_wk": 0.15874747358156185,
+                "crude_COVID_rate": 0.9918758844633763,
+                "aa_COVID_rate": 1.0
+            }
+        },
+        "strongest_positive_pair": [
+            "crude_COVID_rate",
+            "aa_COVID_rate"
+        ],
+        "strongest_positive_value": 0.9919,
+        "strongest_negative_pair": null,
+        "strongest_negative_value": null,
+        "skipped": false
+    }
+}

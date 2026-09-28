@@ -1,0 +1,969 @@
+{
+    "Dataset Overview": {
+        "filename": "NEH_Grants2000s.csv",
+        "rows": 9402,
+        "columns": 33,
+        "column_name": "Disciplines",
+        "technical_type": {
+            "AppNumber": "str",
+            "ApplicantType": "int64",
+            "Institution": "str",
+            "OrganizationType": "str",
+            "InstCity": "str",
+            "InstState": "str",
+            "InstPostalCode": "str",
+            "InstCountry": "str",
+            "CongressionalDistrict": "int64",
+            "Latitude": "str",
+            "Longitude": "str",
+            "CouncilDate": "str",
+            "YearAwarded": "int64",
+            "ProjectTitle": "str",
+            "Program": "str",
+            "Division": "str",
+            "ApprovedOutright": "float64",
+            "ApprovedMatching": "float64",
+            "AwardOutright": "float64",
+            "AwardMatching": "float64",
+            "OriginalAmount": "float64",
+            "SupplementAmount": "float64",
+            "BeginGrant": "str",
+            "EndGrant": "str",
+            "ProjectDesc": "str",
+            "ToSupport": "str",
+            "PrimaryDiscipline": "str",
+            "SupplementCount": "int64",
+            "Supplements": "str",
+            "ParticipantCount": "int64",
+            "Participants": "str",
+            "DisciplineCount": "int64",
+            "Disciplines": "str"
+        },
+        "non_missing_count": {
+            "AppNumber": 9402,
+            "ApplicantType": 9402,
+            "Institution": 9402,
+            "OrganizationType": 9402,
+            "InstCity": 9402,
+            "InstState": 9402,
+            "InstPostalCode": 9402,
+            "InstCountry": 9402,
+            "CongressionalDistrict": 9402,
+            "Latitude": 9402,
+            "Longitude": 9402,
+            "CouncilDate": 9402,
+            "YearAwarded": 9402,
+            "ProjectTitle": 9402,
+            "Program": 9402,
+            "Division": 9402,
+            "ApprovedOutright": 9402,
+            "ApprovedMatching": 9402,
+            "AwardOutright": 9402,
+            "AwardMatching": 9402,
+            "OriginalAmount": 9402,
+            "SupplementAmount": 9402,
+            "BeginGrant": 9402,
+            "EndGrant": 9402,
+            "ProjectDesc": 9402,
+            "ToSupport": 9402,
+            "PrimaryDiscipline": 9402,
+            "SupplementCount": 9402,
+            "Supplements": 302,
+            "ParticipantCount": 9402,
+            "Participants": 9139,
+            "DisciplineCount": 9402,
+            "Disciplines": 9402
+        },
+        "missing_percent": {
+            "AppNumber": 0.0,
+            "ApplicantType": 0.0,
+            "Institution": 0.0,
+            "OrganizationType": 0.0,
+            "InstCity": 0.0,
+            "InstState": 0.0,
+            "InstPostalCode": 0.0,
+            "InstCountry": 0.0,
+            "CongressionalDistrict": 0.0,
+            "Latitude": 0.0,
+            "Longitude": 0.0,
+            "CouncilDate": 0.0,
+            "YearAwarded": 0.0,
+            "ProjectTitle": 0.0,
+            "Program": 0.0,
+            "Division": 0.0,
+            "ApprovedOutright": 0.0,
+            "ApprovedMatching": 0.0,
+            "AwardOutright": 0.0,
+            "AwardMatching": 0.0,
+            "OriginalAmount": 0.0,
+            "SupplementAmount": 0.0,
+            "BeginGrant": 0.0,
+            "EndGrant": 0.0,
+            "ProjectDesc": 0.0,
+            "ToSupport": 0.0,
+            "PrimaryDiscipline": 0.0,
+            "SupplementCount": 0.0,
+            "Supplements": 0.9679,
+            "ParticipantCount": 0.0,
+            "Participants": 0.028,
+            "DisciplineCount": 0.0,
+            "Disciplines": 0.0
+        },
+        "unique_values": {
+            "AppNumber": 9402,
+            "ApplicantType": 2,
+            "Institution": 2964,
+            "OrganizationType": 40,
+            "InstCity": 1379,
+            "InstState": 57,
+            "InstPostalCode": 3022,
+            "InstCountry": 17,
+            "CongressionalDistrict": 52,
+            "Latitude": 2504,
+            "Longitude": 2504,
+            "CouncilDate": 50,
+            "YearAwarded": 13,
+            "ProjectTitle": 7757,
+            "Program": 113,
+            "Division": 9,
+            "ApprovedOutright": 2859,
+            "ApprovedMatching": 281,
+            "AwardOutright": 3003,
+            "AwardMatching": 348,
+            "OriginalAmount": 2834,
+            "SupplementAmount": 217,
+            "BeginGrant": 141,
+            "EndGrant": 217,
+            "ProjectDesc": 4283,
+            "ToSupport": 5235,
+            "PrimaryDiscipline": 107,
+            "SupplementCount": 24,
+            "Supplements": 279,
+            "ParticipantCount": 11,
+            "Participants": 7319,
+            "DisciplineCount": 3,
+            "Disciplines": 307
+        },
+        "probable_role": {
+            "AppNumber": "Identifier-like",
+            "ApplicantType": "Boolean",
+            "Institution": "Free-text field",
+            "OrganizationType": "Categorical",
+            "InstCity": "Free-text field",
+            "InstState": "Categorical",
+            "InstPostalCode": "Free-text field",
+            "InstCountry": "Categorical",
+            "CongressionalDistrict": "Numeric",
+            "Latitude": "Free-text field",
+            "Longitude": "Free-text field",
+            "CouncilDate": "Categorical",
+            "YearAwarded": "Numeric",
+            "ProjectTitle": "Free-text field",
+            "Program": "Categorical",
+            "Division": "Categorical",
+            "ApprovedOutright": "Numeric",
+            "ApprovedMatching": "Numeric",
+            "AwardOutright": "Numeric",
+            "AwardMatching": "Numeric",
+            "OriginalAmount": "Numeric",
+            "SupplementAmount": "Numeric",
+            "BeginGrant": "Categorical",
+            "EndGrant": "Categorical",
+            "ProjectDesc": "Free-text field",
+            "ToSupport": "Free-text field",
+            "PrimaryDiscipline": "Categorical",
+            "SupplementCount": "Numeric",
+            "Supplements": "Identifier-like",
+            "ParticipantCount": "Numeric",
+            "Participants": "Free-text field",
+            "DisciplineCount": "Numeric",
+            "Disciplines": "Categorical"
+        }
+    },
+    "Data Quality": {
+        "Number of duplicate rows in each columns": {
+            "AppNumber": 0,
+            "ApplicantType": 0,
+            "Institution": 0,
+            "OrganizationType": 0,
+            "InstCity": 0,
+            "InstState": 0,
+            "InstPostalCode": 0,
+            "InstCountry": 0,
+            "CongressionalDistrict": 0,
+            "Latitude": 0,
+            "Longitude": 0,
+            "CouncilDate": 0,
+            "YearAwarded": 0,
+            "ProjectTitle": 0,
+            "Program": 0,
+            "Division": 0,
+            "ApprovedOutright": 0,
+            "ApprovedMatching": 0,
+            "AwardOutright": 0,
+            "AwardMatching": 0,
+            "OriginalAmount": 0,
+            "SupplementAmount": 0,
+            "BeginGrant": 0,
+            "EndGrant": 0,
+            "ProjectDesc": 0,
+            "ToSupport": 0,
+            "PrimaryDiscipline": 0,
+            "SupplementCount": 0,
+            "Supplements": 0,
+            "ParticipantCount": 0,
+            "Participants": 0,
+            "DisciplineCount": 0,
+            "Disciplines": 0
+        },
+        "Columns containing only one distinct value": [],
+        "Columns with a high percentage of missing values": [
+            "Supplements"
+        ],
+        "Columns that have mixed or inconsistent data type": [],
+        "Columns that have identifier-like or extremely high-cardinality data type": [
+            "AppNumber",
+            "Supplements"
+        ],
+        "Columns that might contain sensitive data based on column name": []
+    },
+    "Descriptive Statistics": {
+        "Categorical Columns descriptive statistics (if blank then no categorical columns found)": {
+            "Number of unique categories in the column": {
+                "OrganizationType": 40,
+                "InstState": 57,
+                "InstCountry": 17,
+                "CouncilDate": 50,
+                "Program": 113,
+                "Division": 9,
+                "BeginGrant": 141,
+                "EndGrant": 217,
+                "PrimaryDiscipline": 107,
+                "Disciplines": 307
+            },
+            "Most frequent category or categories": {
+                "OrganizationType": {
+                    "Four-Year College": 2367,
+                    "University": 1856,
+                    "State Humanities Council": 607
+                },
+                "InstState": {
+                    "NY": 1113,
+                    "CA": 672,
+                    "MA": 654
+                },
+                "InstCountry": {
+                    "USA": 9359,
+                    "Canada": 14,
+                    "United Kingdom": 6
+                },
+                "CouncilDate": {
+                    "7/1/2001 12:00:00 AM": 436,
+                    "11/1/2003 12:00:00 AM": 416,
+                    "7/1/2000 12:00:00 AM": 390
+                },
+                "Program": {
+                    "Preservation/Access Projects": 1104,
+                    "Summer Stipends": 1050,
+                    "Fellowships for University Teachers": 821
+                },
+                "Division": {
+                    "Research": 3320,
+                    "Preservation and Access": 1956,
+                    "Public Programs": 1848
+                },
+                "BeginGrant": {
+                    "1/1/2004 12:00:00 AM": 295,
+                    "9/1/2001 12:00:00 AM": 290,
+                    "1/1/2006 12:00:00 AM": 259
+                },
+                "EndGrant": {
+                    "6/30/2006 12:00:00 AM": 269,
+                    "6/30/2005 12:00:00 AM": 252,
+                    "12/31/2004 12:00:00 AM": 242
+                },
+                "PrimaryDiscipline": {
+                    "U.S. History": 1762,
+                    "Interdisciplinary Studies, General": 1126,
+                    "Archival Management and Conservation": 759
+                },
+                "Disciplines": {
+                    "U.S. History": 1729,
+                    "Interdisciplinary Studies, General": 1098,
+                    "Archival Management and Conservation": 746
+                }
+            },
+            "Frequency count of top 10 categories": {
+                "OrganizationType": {
+                    "Four-Year College": 2367,
+                    "University": 1856,
+                    "State Humanities Council": 607,
+                    "Center For Advanced Study/Research Institute": 560,
+                    "Library": 462,
+                    "Unknown": 444,
+                    "Museum": 390,
+                    "Historical Society": 382,
+                    "Publishing": 380,
+                    "Two-Year College": 235
+                },
+                "InstState": {
+                    "NY": 1113,
+                    "CA": 672,
+                    "MA": 654,
+                    "PA": 445,
+                    "IL": 436,
+                    "VA": 401,
+                    "TX": 376,
+                    "OH": 300,
+                    "NC": 267,
+                    "MI": 240
+                },
+                "InstCountry": {
+                    "USA": 9359,
+                    "Canada": 14,
+                    "United Kingdom": 6,
+                    "France": 5,
+                    "Israel": 4,
+                    "Australia": 2,
+                    "Cyprus": 2,
+                    "New Zealand": 1,
+                    "NETHERLANDS": 1,
+                    "Finland": 1
+                },
+                "CouncilDate": {
+                    "7/1/2001 12:00:00 AM": 436,
+                    "11/1/2003 12:00:00 AM": 416,
+                    "7/1/2000 12:00:00 AM": 390,
+                    "11/1/2004 12:00:00 AM": 376,
+                    "11/1/2005 12:00:00 AM": 375,
+                    "11/1/2001 12:00:00 AM": 364,
+                    "3/1/2002 12:00:00 AM": 344,
+                    "3/1/2000 12:00:00 AM": 339,
+                    "7/1/2002 12:00:00 AM": 325,
+                    "3/1/2001 12:00:00 AM": 311
+                },
+                "Program": {
+                    "Preservation/Access Projects": 1104,
+                    "Summer Stipends": 1050,
+                    "Fellowships for University Teachers": 821,
+                    "Fellowships for College Teachers and Independent Scholars": 731,
+                    "Humanities Projects in Libraries and Archives": 495,
+                    "Grants for State Humanities Councils": 331,
+                    "Humanities Projects in Museums and Historical Organizations": 330,
+                    "Preservation Assistance Grants": 325,
+                    "Collaborative Research": 297,
+                    "Humanities Projects in Media": 235
+                },
+                "Division": {
+                    "Research": 3320,
+                    "Preservation and Access": 1956,
+                    "Public Programs": 1848,
+                    "Education Programs": 1326,
+                    "Federal/State Partnership": 511,
+                    "Challenge Programs": 266,
+                    "Digital Humanities": 121,
+                    "Agency-wide Projects": 53,
+                    "Fellowships and Seminars": 1
+                },
+                "BeginGrant": {
+                    "1/1/2004 12:00:00 AM": 295,
+                    "9/1/2001 12:00:00 AM": 290,
+                    "1/1/2006 12:00:00 AM": 259,
+                    "9/1/2000 12:00:00 AM": 249,
+                    "9/1/2002 12:00:00 AM": 240,
+                    "5/1/2001 12:00:00 AM": 227,
+                    "1/1/2005 12:00:00 AM": 205,
+                    "5/1/2002 12:00:00 AM": 191,
+                    "7/1/2004 12:00:00 AM": 181,
+                    "5/1/2000 12:00:00 AM": 180
+                },
+                "EndGrant": {
+                    "6/30/2006 12:00:00 AM": 269,
+                    "6/30/2005 12:00:00 AM": 252,
+                    "12/31/2004 12:00:00 AM": 242,
+                    "12/31/2006 12:00:00 AM": 204,
+                    "6/30/2008 12:00:00 AM": 204,
+                    "6/30/2009 12:00:00 AM": 201,
+                    "6/30/2007 12:00:00 AM": 199,
+                    "9/30/2001 12:00:00 AM": 194,
+                    "8/31/2004 12:00:00 AM": 192,
+                    "12/31/2007 12:00:00 AM": 189
+                },
+                "PrimaryDiscipline": {
+                    "U.S. History": 1762,
+                    "Interdisciplinary Studies, General": 1126,
+                    "Archival Management and Conservation": 759,
+                    "History, General": 358,
+                    "American Literature": 307,
+                    "Museum Studies or Historical Preservation": 304,
+                    "Art History and Criticism": 275,
+                    "British Literature": 228,
+                    "American Studies": 211,
+                    "Music History and Criticism": 209
+                },
+                "Disciplines": {
+                    "U.S. History": 1729,
+                    "Interdisciplinary Studies, General": 1098,
+                    "Archival Management and Conservation": 746,
+                    "History, General": 339,
+                    "Museum Studies or Historical Preservation": 301,
+                    "American Literature": 300,
+                    "Art History and Criticism": 259,
+                    "British Literature": 222,
+                    "American Studies": 209,
+                    "Music History and Criticism": 206
+                }
+            },
+            "Frequency count percentage of top 10 categories": {
+                "OrganizationType": {
+                    "Four-Year College": 25.2,
+                    "University": 19.7,
+                    "State Humanities Council": 6.5,
+                    "Center For Advanced Study/Research Institute": 6.0,
+                    "Library": 4.9,
+                    "Unknown": 4.7,
+                    "Museum": 4.1,
+                    "Historical Society": 4.1,
+                    "Publishing": 4.0,
+                    "Two-Year College": 2.5
+                },
+                "InstState": {
+                    "NY": 11.8,
+                    "CA": 7.1,
+                    "MA": 7.0,
+                    "PA": 4.7,
+                    "IL": 4.6,
+                    "VA": 4.3,
+                    "TX": 4.0,
+                    "OH": 3.2,
+                    "NC": 2.8,
+                    "MI": 2.6
+                },
+                "InstCountry": {
+                    "USA": 99.5,
+                    "Canada": 0.1,
+                    "United Kingdom": 0.1,
+                    "France": 0.1,
+                    "Israel": 0.0,
+                    "Australia": 0.0,
+                    "Cyprus": 0.0,
+                    "New Zealand": 0.0,
+                    "NETHERLANDS": 0.0,
+                    "Finland": 0.0
+                },
+                "CouncilDate": {
+                    "7/1/2001 12:00:00 AM": 4.6,
+                    "11/1/2003 12:00:00 AM": 4.4,
+                    "7/1/2000 12:00:00 AM": 4.1,
+                    "11/1/2004 12:00:00 AM": 4.0,
+                    "11/1/2005 12:00:00 AM": 4.0,
+                    "11/1/2001 12:00:00 AM": 3.9,
+                    "3/1/2002 12:00:00 AM": 3.7,
+                    "3/1/2000 12:00:00 AM": 3.6,
+                    "7/1/2002 12:00:00 AM": 3.5,
+                    "3/1/2001 12:00:00 AM": 3.3
+                },
+                "Program": {
+                    "Preservation/Access Projects": 11.7,
+                    "Summer Stipends": 11.2,
+                    "Fellowships for University Teachers": 8.7,
+                    "Fellowships for College Teachers and Independent Scholars": 7.8,
+                    "Humanities Projects in Libraries and Archives": 5.3,
+                    "Grants for State Humanities Councils": 3.5,
+                    "Humanities Projects in Museums and Historical Organizations": 3.5,
+                    "Preservation Assistance Grants": 3.5,
+                    "Collaborative Research": 3.2,
+                    "Humanities Projects in Media": 2.5
+                },
+                "Division": {
+                    "Research": 35.3,
+                    "Preservation and Access": 20.8,
+                    "Public Programs": 19.7,
+                    "Education Programs": 14.1,
+                    "Federal/State Partnership": 5.4,
+                    "Challenge Programs": 2.8,
+                    "Digital Humanities": 1.3,
+                    "Agency-wide Projects": 0.6,
+                    "Fellowships and Seminars": 0.0
+                },
+                "BeginGrant": {
+                    "1/1/2004 12:00:00 AM": 3.1,
+                    "9/1/2001 12:00:00 AM": 3.1,
+                    "1/1/2006 12:00:00 AM": 2.8,
+                    "9/1/2000 12:00:00 AM": 2.6,
+                    "9/1/2002 12:00:00 AM": 2.6,
+                    "5/1/2001 12:00:00 AM": 2.4,
+                    "1/1/2005 12:00:00 AM": 2.2,
+                    "5/1/2002 12:00:00 AM": 2.0,
+                    "7/1/2004 12:00:00 AM": 1.9,
+                    "5/1/2000 12:00:00 AM": 1.9
+                },
+                "EndGrant": {
+                    "6/30/2006 12:00:00 AM": 2.9,
+                    "6/30/2005 12:00:00 AM": 2.7,
+                    "12/31/2004 12:00:00 AM": 2.6,
+                    "12/31/2006 12:00:00 AM": 2.2,
+                    "6/30/2008 12:00:00 AM": 2.2,
+                    "6/30/2009 12:00:00 AM": 2.1,
+                    "6/30/2007 12:00:00 AM": 2.1,
+                    "9/30/2001 12:00:00 AM": 2.1,
+                    "8/31/2004 12:00:00 AM": 2.0,
+                    "12/31/2007 12:00:00 AM": 2.0
+                },
+                "PrimaryDiscipline": {
+                    "U.S. History": 18.7,
+                    "Interdisciplinary Studies, General": 12.0,
+                    "Archival Management and Conservation": 8.1,
+                    "History, General": 3.8,
+                    "American Literature": 3.3,
+                    "Museum Studies or Historical Preservation": 3.2,
+                    "Art History and Criticism": 2.9,
+                    "British Literature": 2.4,
+                    "American Studies": 2.2,
+                    "Music History and Criticism": 2.2
+                },
+                "Disciplines": {
+                    "U.S. History": 18.4,
+                    "Interdisciplinary Studies, General": 11.7,
+                    "Archival Management and Conservation": 7.9,
+                    "History, General": 3.6,
+                    "Museum Studies or Historical Preservation": 3.2,
+                    "American Literature": 3.2,
+                    "Art History and Criticism": 2.8,
+                    "British Literature": 2.4,
+                    "American Studies": 2.2,
+                    "Music History and Criticism": 2.2
+                }
+            },
+            "Top categories when the column contains many unique values": {
+                "OrganizationType": {
+                    "Four-Year College": 2367,
+                    "University": 1856,
+                    "State Humanities Council": 607
+                },
+                "InstState": {
+                    "NY": 1113,
+                    "CA": 672,
+                    "MA": 654
+                },
+                "InstCountry": {
+                    "USA": 9359,
+                    "Canada": 14,
+                    "United Kingdom": 6
+                },
+                "CouncilDate": {
+                    "7/1/2001 12:00:00 AM": 436,
+                    "11/1/2003 12:00:00 AM": 416,
+                    "7/1/2000 12:00:00 AM": 390
+                },
+                "Program": {
+                    "Preservation/Access Projects": 1104,
+                    "Summer Stipends": 1050,
+                    "Fellowships for University Teachers": 821
+                },
+                "BeginGrant": {
+                    "1/1/2004 12:00:00 AM": 295,
+                    "9/1/2001 12:00:00 AM": 290,
+                    "1/1/2006 12:00:00 AM": 259
+                },
+                "EndGrant": {
+                    "6/30/2006 12:00:00 AM": 269,
+                    "6/30/2005 12:00:00 AM": 252,
+                    "12/31/2004 12:00:00 AM": 242
+                },
+                "PrimaryDiscipline": {
+                    "U.S. History": 1762,
+                    "Interdisciplinary Studies, General": 1126,
+                    "Archival Management and Conservation": 759
+                },
+                "Disciplines": {
+                    "U.S. History": 1729,
+                    "Interdisciplinary Studies, General": 1098,
+                    "Archival Management and Conservation": 746
+                }
+            }
+        },
+        "Numerical Columns descriptive statistics (if blank then no numeric columns found)": {
+            "Valid count of the column": {
+                "CongressionalDistrict": 9402,
+                "YearAwarded": 9402,
+                "ApprovedOutright": 9402,
+                "ApprovedMatching": 9402,
+                "AwardOutright": 9402,
+                "AwardMatching": 9402,
+                "OriginalAmount": 9402,
+                "SupplementAmount": 9402,
+                "SupplementCount": 9402,
+                "ParticipantCount": 9402,
+                "DisciplineCount": 9402
+            },
+            "Missing count and percentage of the column": {
+                "CongressionalDistrict": [
+                    9402,
+                    100.0
+                ],
+                "YearAwarded": [
+                    9402,
+                    100.0
+                ],
+                "ApprovedOutright": [
+                    9402,
+                    100.0
+                ],
+                "ApprovedMatching": [
+                    9402,
+                    100.0
+                ],
+                "AwardOutright": [
+                    9402,
+                    100.0
+                ],
+                "AwardMatching": [
+                    9402,
+                    100.0
+                ],
+                "OriginalAmount": [
+                    9402,
+                    100.0
+                ],
+                "SupplementAmount": [
+                    9402,
+                    100.0
+                ],
+                "SupplementCount": [
+                    9402,
+                    100.0
+                ],
+                "ParticipantCount": [
+                    9402,
+                    100.0
+                ],
+                "DisciplineCount": [
+                    9402,
+                    100.0
+                ]
+            },
+            "Minimum value in the column": {
+                "CongressionalDistrict": 0.0,
+                "YearAwarded": 1980.0,
+                "ApprovedOutright": 0.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": -500.0,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 0.0,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 0.0,
+                "DisciplineCount": 1.0
+            },
+            "Maximum value in the column": {
+                "CongressionalDistrict": 98.0,
+                "YearAwarded": 2009.0,
+                "ApprovedOutright": 5201620.0,
+                "ApprovedMatching": 1023500.0,
+                "AwardOutright": 5192520.0,
+                "AwardMatching": 1000000.0,
+                "OriginalAmount": 1574655.0,
+                "SupplementAmount": 3883077.0,
+                "SupplementCount": 41.0,
+                "ParticipantCount": 12.0,
+                "DisciplineCount": 3.0
+            },
+            "Mean of the column": {
+                "CongressionalDistrict": 7.932673899170389,
+                "YearAwarded": 2003.9734099127845,
+                "ApprovedOutright": 102375.5144171453,
+                "ApprovedMatching": 18815.45245692406,
+                "AwardOutright": 101250.89444798979,
+                "AwardMatching": 17655.508565198896,
+                "OriginalAmount": 84772.90736864496,
+                "SupplementAmount": 25512.23779834078,
+                "SupplementCount": 0.2944054456498617,
+                "ParticipantCount": 1.124335247819613,
+                "DisciplineCount": 1.0365879600085088
+            },
+            "Median of the column": {
+                "CongressionalDistrict": 5.0,
+                "YearAwarded": 2004.0,
+                "ApprovedOutright": 30000.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": 30000.0,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 35000.0,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 1.0,
+                "DisciplineCount": 1.0
+            },
+            "Mode of the column": {
+                "CongressionalDistrict": 1.0,
+                "YearAwarded": 2001.0,
+                "ApprovedOutright": 5000.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": 5000.0,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 5000.0,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 1.0,
+                "DisciplineCount": 1.0
+            },
+            "Standard deviation of the column": {
+                "CongressionalDistrict": 9.091846481148956,
+                "YearAwarded": 2.8040906584157392,
+                "ApprovedOutright": 280413.90757489577,
+                "ApprovedMatching": 87155.57740959777,
+                "AwardOutright": 276531.908146401,
+                "AwardMatching": 83082.69985705304,
+                "OriginalAmount": 135668.26801461505,
+                "SupplementAmount": 184440.84785134514,
+                "SupplementCount": 1.9507576343535449,
+                "ParticipantCount": 0.6440593737350268,
+                "DisciplineCount": 0.22297887080996187
+            },
+            "First quartile of the column": {
+                "CongressionalDistrict": 2.0,
+                "YearAwarded": 2002.0,
+                "ApprovedOutright": 5000.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": 5000.0,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 5000.0,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 1.0,
+                "DisciplineCount": 1.0
+            },
+            "Third quartile of the column": {
+                "CongressionalDistrict": 11.0,
+                "YearAwarded": 2006.0,
+                "ApprovedOutright": 93186.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": 91882.5,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 106413.75,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 1.0,
+                "DisciplineCount": 1.0
+            },
+            "Interquartile of the column": {
+                "CongressionalDistrict": 9.0,
+                "YearAwarded": 4.0,
+                "ApprovedOutright": 88186.0,
+                "ApprovedMatching": 0.0,
+                "AwardOutright": 86882.5,
+                "AwardMatching": 0.0,
+                "OriginalAmount": 101413.75,
+                "SupplementAmount": 0.0,
+                "SupplementCount": 0.0,
+                "ParticipantCount": 0.0,
+                "DisciplineCount": 0.0
+            },
+            "Outlier count and percentage of the column": {
+                "CongressionalDistrict": [
+                    587,
+                    6.2
+                ],
+                "YearAwarded": [
+                    0.0,
+                    2
+                ],
+                "ApprovedOutright": [
+                    9.2,
+                    869
+                ],
+                "ApprovedMatching": [
+                    13.5,
+                    1271
+                ],
+                "AwardOutright": [
+                    9.4,
+                    886
+                ],
+                "AwardMatching": [
+                    12.9,
+                    1214
+                ],
+                "OriginalAmount": [
+                    8.7,
+                    822
+                ],
+                "SupplementAmount": [
+                    3.2,
+                    302
+                ],
+                "SupplementCount": [
+                    3.2,
+                    302
+                ],
+                "ParticipantCount": [
+                    11.8,
+                    1110
+                ],
+                "DisciplineCount": [
+                    2.9,
+                    276
+                ]
+            }
+        }
+    },
+    "Relationships": {
+        "correlation_matrix": {
+            "CongressionalDistrict": {
+                "CongressionalDistrict": 1.0,
+                "YearAwarded": -0.017172731992870418,
+                "ApprovedOutright": -0.009753914961422586,
+                "ApprovedMatching": -0.0022319212553487864,
+                "AwardOutright": -0.009795923052558901,
+                "AwardMatching": -0.003915306222638838,
+                "OriginalAmount": 0.03325870004941714,
+                "SupplementAmount": -0.030972012615112388,
+                "SupplementCount": -0.05392740397509436,
+                "ParticipantCount": -0.06881638091645147,
+                "DisciplineCount": 0.02550877038547125
+            },
+            "YearAwarded": {
+                "CongressionalDistrict": -0.017172731992870418,
+                "YearAwarded": 1.0,
+                "ApprovedOutright": 0.05407750988400598,
+                "ApprovedMatching": -0.008947161213197089,
+                "AwardOutright": 0.05571369670376902,
+                "AwardMatching": -0.00826435451921826,
+                "OriginalAmount": 0.10526993777221437,
+                "SupplementAmount": -0.007044943448039949,
+                "SupplementCount": -0.012569876611469931,
+                "ParticipantCount": 0.07439438543424322,
+                "DisciplineCount": -0.06428254626882295
+            },
+            "ApprovedOutright": {
+                "CongressionalDistrict": -0.009753914961422586,
+                "YearAwarded": 0.05407750988400598,
+                "ApprovedOutright": 1.0,
+                "ApprovedMatching": 0.09046970072407201,
+                "AwardOutright": 0.998787762780759,
+                "AwardMatching": 0.09618019257632353,
+                "OriginalAmount": 0.41089441263037024,
+                "SupplementAmount": 0.9174920285539618,
+                "SupplementCount": 0.8027788389139243,
+                "ParticipantCount": 0.5767136231916331,
+                "DisciplineCount": -0.02038587651794486
+            },
+            "ApprovedMatching": {
+                "CongressionalDistrict": -0.0022319212553487864,
+                "YearAwarded": -0.008947161213197089,
+                "ApprovedOutright": 0.09046970072407201,
+                "ApprovedMatching": 1.0,
+                "AwardOutright": 0.09012334934047672,
+                "AwardMatching": 0.9801747118046817,
+                "OriginalAmount": 0.5507937401130296,
+                "SupplementAmount": 0.12078431159310427,
+                "SupplementCount": 0.09503829531084593,
+                "ParticipantCount": 0.12999286302819424,
+                "DisciplineCount": -0.004529426998282481
+            },
+            "AwardOutright": {
+                "CongressionalDistrict": -0.009795923052558901,
+                "YearAwarded": 0.05571369670376902,
+                "ApprovedOutright": 0.998787762780759,
+                "ApprovedMatching": 0.09012334934047672,
+                "AwardOutright": 1.0,
+                "AwardMatching": 0.09616183500021631,
+                "OriginalAmount": 0.41171166452691865,
+                "SupplementAmount": 0.9151003100695548,
+                "SupplementCount": 0.8026034370679531,
+                "ParticipantCount": 0.578549189772242,
+                "DisciplineCount": -0.020487099604667765
+            },
+            "AwardMatching": {
+                "CongressionalDistrict": -0.003915306222638838,
+                "YearAwarded": -0.00826435451921826,
+                "ApprovedOutright": 0.09618019257632353,
+                "ApprovedMatching": 0.9801747118046817,
+                "AwardOutright": 0.09616183500021631,
+                "AwardMatching": 1.0,
+                "OriginalAmount": 0.5646858488570805,
+                "SupplementAmount": 0.12691230966442393,
+                "SupplementCount": 0.0999216652511107,
+                "ParticipantCount": 0.1283102039902187,
+                "DisciplineCount": -0.0040709636485900666
+            },
+            "OriginalAmount": {
+                "CongressionalDistrict": 0.03325870004941714,
+                "YearAwarded": 0.10526993777221437,
+                "ApprovedOutright": 0.41089441263037024,
+                "ApprovedMatching": 0.5507937401130296,
+                "AwardOutright": 0.41171166452691865,
+                "AwardMatching": 0.5646858488570805,
+                "OriginalAmount": 1.0,
+                "SupplementAmount": 0.12500831061623213,
+                "SupplementCount": 0.09133243514026552,
+                "ParticipantCount": 0.11675800292551579,
+                "DisciplineCount": -0.0030237313243251193
+            },
+            "SupplementAmount": {
+                "CongressionalDistrict": -0.030972012615112388,
+                "YearAwarded": -0.007044943448039949,
+                "ApprovedOutright": 0.9174920285539618,
+                "ApprovedMatching": 0.12078431159310427,
+                "AwardOutright": 0.9151003100695548,
+                "AwardMatching": 0.12691230966442393,
+                "OriginalAmount": 0.12500831061623213,
+                "SupplementAmount": 1.0,
+                "SupplementCount": 0.8648981553889843,
+                "ParticipantCount": 0.5996283817439071,
+                "DisciplineCount": -0.022653569086179787
+            },
+            "SupplementCount": {
+                "CongressionalDistrict": -0.05392740397509436,
+                "YearAwarded": -0.012569876611469931,
+                "ApprovedOutright": 0.8027788389139243,
+                "ApprovedMatching": 0.09503829531084593,
+                "AwardOutright": 0.8026034370679531,
+                "AwardMatching": 0.0999216652511107,
+                "OriginalAmount": 0.09133243514026552,
+                "SupplementAmount": 0.8648981553889843,
+                "SupplementCount": 1.0,
+                "ParticipantCount": 0.669675525670967,
+                "DisciplineCount": -0.023299147737213578
+            },
+            "ParticipantCount": {
+                "CongressionalDistrict": -0.06881638091645147,
+                "YearAwarded": 0.07439438543424322,
+                "ApprovedOutright": 0.5767136231916331,
+                "ApprovedMatching": 0.12999286302819424,
+                "AwardOutright": 0.578549189772242,
+                "AwardMatching": 0.1283102039902187,
+                "OriginalAmount": 0.11675800292551579,
+                "SupplementAmount": 0.5996283817439071,
+                "SupplementCount": 0.669675525670967,
+                "ParticipantCount": 1.0,
+                "DisciplineCount": -0.027236143416549456
+            },
+            "DisciplineCount": {
+                "CongressionalDistrict": 0.02550877038547125,
+                "YearAwarded": -0.06428254626882295,
+                "ApprovedOutright": -0.02038587651794486,
+                "ApprovedMatching": -0.004529426998282481,
+                "AwardOutright": -0.020487099604667765,
+                "AwardMatching": -0.0040709636485900666,
+                "OriginalAmount": -0.0030237313243251193,
+                "SupplementAmount": -0.022653569086179787,
+                "SupplementCount": -0.023299147737213578,
+                "ParticipantCount": -0.027236143416549456,
+                "DisciplineCount": 1.0
+            }
+        },
+        "strongest_positive_pair": [
+            "ApprovedOutright",
+            "AwardOutright"
+        ],
+        "strongest_positive_value": 0.9988,
+        "strongest_negative_pair": [
+            "CongressionalDistrict",
+            "ParticipantCount"
+        ],
+        "strongest_negative_value": -0.0688,
+        "skipped": false
+    }
+}

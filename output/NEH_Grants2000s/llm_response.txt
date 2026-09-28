@@ -1,0 +1,9 @@
+Based on the provided data, the strongest positive pair is `ApprovedOutright` and `AwardOutright`, with an approved outright value of 0.9988. 
+
+The strongest negative pair is `CongressionalDistrict` and `ParticipantCount`, with a participant count of 1.0. 
+
+The overall strongest values are:
+- ApprovedOutright: 0.9988
+- AwardOutright: 0.9988
+
+The overall strongest value is 0.9988.

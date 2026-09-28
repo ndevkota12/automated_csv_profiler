@@ -1,0 +1,15 @@
+Column Name,Technical Type,Probable Role,Non-Missing Count,Missing Percent,Unique Values
+data_as_of,str,Date-like,45565,0.0,1
+Jurisdiction_Residence,str,Categorical,45565,0.0,65
+Group,str,Categorical,45565,0.0,3
+data_period_start,str,Date-like,45565,0.0,351
+data_period_end,str,Date-like,45565,0.0,350
+COVID_deaths,str,Free-text field,38958,0.145,17568
+COVID_pct_of_total,float64,Numeric,38958,0.145,444
+pct_change_wk,float64,Numeric,13691,0.6995,1278
+pct_diff_wk,float64,Numeric,14908,0.6728,229
+crude_COVID_rate,float64,Numeric,36006,0.2098,5021
+aa_COVID_rate,float64,Numeric,36006,0.2098,4264
+crude_COVID_rate_ann,str,Free-text field,36006,0.2098,2965
+aa_COVID_rate_ann,str,Free-text field,36006,0.2098,2739
+footnote,str,Boolean,9559,0.7902,2
