@@ -9,9 +9,9 @@
 * **Modifications:** None.
 
 ## Dataset B
-* **Filename:** `SupplyChainGHGEmissionFactors_v1.3.0_NAICS_CO2e_USD2022.csv`
-* **Agency/Organization:** U.S. Environmental Protection Agency
-* **Dataset Title:** Supply Chain Greenhouse Gas Emission Factors v1.3 by NAICS-6
-* **Source Link:** https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6
+* **Filename:** `Provisional COVID-19 data.csv`
+* **Agency/Organization:** U.S. Department of Health & Human Services
+* **Dataset Title:** Provisional COVID-19 death counts, rates, and percent of total deaths, by jurisdiction of residence
+* **Source Link:** https://catalog.data.gov/dataset/provisional-covid-19-death-counts-rates-and-percent-of-total-deaths-by-jurisdiction-of-res?from_hint=eyJxIjoiIiwic29ydCI6InJlbGV2YW5jZSJ9
 * **Date Accessed:** 9/27/2026
 * **Modifications:** None.
