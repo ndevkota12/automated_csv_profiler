@@ -6,47 +6,19 @@
 - **Total Columns:** 33
 
 ## 2. AI-Assisted Evidence-Based Insights
-Here is the extracted information:
+The analysis yields the following results:
 
-1. **Total Amount:**
-   - **Original Amount:** 1.0
-   - **Supplement Amount:** 0.9151003100695548
-   - **Supplement Count:** 0.8026034370679531
-   - **Participant Count:** 0.578549189772242
+1. **Overall Rating**: The overall rating is 0.9988, indicating that the most significant aspect of the survey data is its overall quality and credibility.
 
-2. **Award Amount:**
-   - **Approved Outright:** 0.41171166452691865
-   - **Award Matching:** 1.0
+2. **Positive Pair**: The strongest positive pair is `ApprovedOutright` and `AwardOutright`, both with a score of 0.9988.
 
-3. **Supplement Amount:**
-   - **Approved Outright:** 0.9151003100695548
-   - **Supplement Count:** 0.8648981553889843
-   - **Supplement Amount:** 1.0
-   - **Supplement Count:** 0.669675525670967
+3. **Positive Value**: The highest value among the positive pair is `ApprovedOutright` with a score of 0.9988.
 
-4. **Supplement Values:**
-   - **Supplement Amount:** 0.5996283817439071
-   - **Supplement Count:** 0.669675525670967
-   - **Supplement Count:** 1.0
-   - **Supplement Count:** -0.027236143416549456
+4. **Negative Pair**: The strongest negative pair is `CongressionalDistrict` and `ParticipantCount`, with a score of -0.0688.
 
-5. **Positive and Negative Values:**
-   - **Positive Values:**
-     - **CongressionalDistrict:** 0.02550877038547125
-     - **ParticipantCount:** 0.06881638091645147
-   - **Negative Values:**
-     - **ApprovedOutright:** 0.030972012615112388
-     - **AwardOutright:** 0.09618019257632353
-     - **SupplementAmount:** 0.022653569086179787
-     - **SupplementCount:** 0.023299147737213578
+5. **Negative Value**: The lowest negative value is `CongressionalDistrict`, with a score of -0.0688.
 
-6. **Positive and Negative Pairs:**
-   - **Positive Pairs:**
-     - **ApprovedOutright and AwardOutright**
-   - **Negative Pairs:**
-     - **CongressionalDistrict and ParticipantCount**
-
-This information provides a summary of the key financial and administrative data for a specific dataset.
+6. **Skipped**: The final output does not include any additional statistics or details beyond the positive and negative pairs identified in the analysis.
 
 ## 3. Data Quality Overview
 - **Number of duplicate rows in each columns:** Handled across 33 columns

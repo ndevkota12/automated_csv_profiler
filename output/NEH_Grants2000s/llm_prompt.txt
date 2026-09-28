@@ -1,13 +1,13 @@
 You are an expert data analyst at Google. 
 I have profiled a dataset and generated a file in JSON format that includes dataset overview, data quality profile, stats and relationships between variables. 
 
-Using ONLY these facts, write 5 to 8 evidence-based insights. You must include:
-1. At least one data-quality finding.
-2. At least one distribution finding.
-3. At least one categorical finding (if categorical columns exist).
-4. At least one relationship finding (if numeric columns exist).
-5. At least one limitation or potential-bias warning.
-6. At least one recommended question for further investigation.
+For each of the following write one full sentence:
+1. Give one data-quality finding and answer why this is important.
+2. Give one distribution finding and answer why this is important.
+3. Give an insightful comment on one categorical finding (if categorical columns exist) and answer why this is important.
+4. Give an insightful comment on one relationship finding (if numeric columns exist) and answer why this is important.
+5. State one limitation or potential-bias warning you find and answer why this is important.
+6. Provide one recommended question for further investigation.
 
 Data Summary:
 {
